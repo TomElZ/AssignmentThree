@@ -1,0 +1,26 @@
+Welcome to the LJMU Staff Holiday Requests System.
+
+This system offers a complete system to fullfil your Holiday Request needs.
+
+If you already have a Username & Password then you can just Log in to the system. However don't worry if you don't as the system also allows you to register.
+
+Once you have logged in, you can view your existing holiday requests, edit them if you require and also delete them if you don't require them anymore.
+You can also view other staff members holiday requests however you will not be able to edit or delete them.
+
+The system currently has a number of test users and the Usernames and Passwords for each user can be found below:
+
+Username:           Password:
+
+enrtelsw            test
+enrlrob             test1
+enrashim            test123
+enrlstro            test
+enrjpfin            test123
+admin               admin123
+
+The passwords are purely for Test purposes and would obviously be changed for the Finalised system.
+
+The Admin user account allows the admin to be able to edit, delete and authorise other people's staff holiday's however the ability to create a new holiday is restricted to just the normal users.
+
+The UI of the System needs to be improved however all of the basic functionality has been implemented.
+

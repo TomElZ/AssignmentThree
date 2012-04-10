@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body {
+		background-color: #f1efe2;
+		 }
+	#container {
+	  	width: 968px;
+	  	margin: 0 auto;
+	  	padding-left: 10px;
+	  	padding-right: 10px;
+	  	overflow: hidden;
+	  	background-color: #f1efe2;
+	   	 }
+	/* These styles make up the Navigation Bar */	 
+	#tabsF {
+	  	float:left;
+	  	width:100%;
+	  	background:#f1efe2;
+	  	font-size:93%;
+	  	line-height:normal;
+	  	border-bottom:1px solid #666;
+ 	  	}
+	#tabsF ul {
+	  	margin:0;
+	  	padding: 10px 0 20px;
+	  	list-style:none;
+	  	}
+	#tabsF li {
+	  	display:inline;
+	  	margin:0;
+	  	padding:0;
+	  	}
+	#tabsF a {
+	  	float:left;
+	  	margin:0;
+	  	padding:0 0 0 4px;
+	  	text-decoration:none;
+	  	background-image: url(../images/tableftF.gif);
+	  	background-repeat: no-repeat;
+	  	background-position: left top;
+	  	}
+	#tabsF a span {
+	  	float:left;
+	  	display:block;
+	  	padding:5px 15px 4px 6px;
+	  	color:#666;
+	  	background-image: url(../images/tabrightF.gif);
+	  	background-repeat: no-repeat;
+	  	background-position: right top;
+	  	}
+	  /* Commented Backslash Hack hides rule from IE5-Mac \*/
+	#tabsF a span {float:none;}
+	  /* End IE5-Mac hack */
+	#tabsF a:hover span {
+	  	color:#FFF;
+	  	}
+	#tabsF a:hover {
+	  	background-position:0% -42px;
+	  	}
+	#tabsF a:hover span {
+	  	background-position:100% -42px;
+	  	}
+	/* These styles style/position the Div Tag's */	
+	#social {
+	  	width: 205px;
+	  	float: left;
+	  	padding-top: 10px;
+	  	border-bottom-style: solid;
+	  	height: 67.5px;
+	  	border-bottom-width: 1px;
+	  	}
+	#socialtext {
+	  	float: left;
+	  	width: 762px;
+	  	padding-top: 10px;
+	  	border-bottom-style: solid;
+	  	height: 67.5px;
+	  	border-bottom-width: 1px;
+	  	}
+	#main {
+	  	width: 610px;
+	  	float: left;
+	  	margin-top: 25px;
+	  	margin-right: 10px;
+	  	border: 1px solid #D3C8A3;
+	  	}
+	#main_1 {
+		margin-top: 25px;
+		float: left;
+		width: 820px;
+		border: 1px solid #D3C8A3;
+	  	}
+	 #main_2 {
+	 	margin-top: 25px;
+		float: left;
+		width: 968px;
+		border: 1px solid #D3C8A3;
+		}
+	 #main_3 {
+	 	margin-top: 25px;
+		float: left;
+		width: 660px;
+		border: 1px solid #D3C8A3;
+		padding-left: 300px;
+		}
+	 
+	#email {
+	  	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  	font-size: 14px;
+	  	color: #000;
+	  	}
+	#login {
+		width: 340px;
+		float: left;
+		margin-top: 25px;
+		border-top-width: 1px;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+		border-top-style: solid;
+		border-right-style: solid;
+		border-bottom-style: solid;
+		border-left-style: solid;
+		border-top-color: #D3C8A3;
+		border-right-color: #D3C8A3;
+		border-bottom-color: #D3C8A3;
+		border-left-color: #D3C8A3;
+	  	}
+	#booking {
+		float: left;
+		margin-top: 25px;
+		width: 968px;
+	  	}
+	#booking_1 {
+		float: left;
+		margin-top: 10px;
+		width: 968px;
+	  	}
+	#footer {
+		height: auto;
+		float: left;
+		width: 610px;
+		margin-top: 15px;
+		clear: none;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #D3C8A3;
+	  	}
+	#footer_test {
+		float: left;
+		margin-top: 15px;
+		width: 355px;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #D3C8A3;
+	  	}
+	#holidayrequest_form {
+	  margin-left: 300px;
+	  margin-right: 300px;
+	  padding-top: 100px;
+	}
+	/* Font classes used */	  
+	.socialfont {
+	  	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  	font-size: 24px;
+	  	width: 700px;
+	  	}
+	.login {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	  	}
+	.input {
+	  	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  	font-weight: bold;
+	  	font-size: 16px;
+	  	}
+	.editinp {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		text-align: center;
+	  	}
+	.normtext {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		}
+	.copyright {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: right;
+	  }
+	.flash {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-size: 20px;
+	  color: #F39;
+	  text-align: center;
+	  margin-bottom: 15px;
+	  margin-top: 15px;
+	  }
+	.apple_pagination {
+    background: #f1efe2;
+    text-align: center;
+    padding: 1em;
+    cursor: default; 
+    }
+    
+  .apple_pagination a, .apple_pagination span {
+    padding: 0.2em 0.3em; 
+    }
+  
+  .apple_pagination .disabled {
+    color: #aaaaaa; 
+    }
+  
+  .apple_pagination .current {
+    font-style: normal;
+    font-weight: bold;
+    background-color: #bebebe;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 1.5;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; 
+    }
+  
+  .apple_pagination a {
+    text-decoration: none;
+    color: black; 
+    }
+    
+   .apple_pagination a:hover, .apple_pagination a:focus {
+      text-decoration: underline; 
+      }
+      
+	h1 {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 16px;
+	  	}
+	p {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	  	}
+	/* Styles that relate to the Tables */
+	#staff {
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		width:50%;
+		border-collapse:collapse;
+		font-size: 14px;
+		margin-left: auto;
+	  margin-right: auto;
+		
+	  	}
+	#staff td, #staff th {
+		font-size:1em;
+		border:1px solid #98bf21;
+		text-align: center;
+	  	}
+	#staf th {
+		font-size:1.1em;
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:4px;
+		background-color:#1687E2;
+	  	}
+	#staff tr.alt td {
+	  	color:#000000;
+	  	background-color:#EAF2D3;
+	  }
+	  
+	/* End of Style Sheet */

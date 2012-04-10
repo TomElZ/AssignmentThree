@@ -1,0 +1,17 @@
+<html>
+<%= javascript_include_tag :defaults %>
+<head>
+<title>LJMU Staff Holiday Requests</title>
+<%= stylesheet_link_tag 'holiday_request.css' %>
+<%= auto_discovery_link_tag :atom, formatted_holidayrequests_path(:atom) %>
+</head>
+<body>
+  <% if flash[:notice] %>
+    <div class="flash"><%= flash[:notice] %></div>
+  <% end %>
+  
+  <div id="wrapper">
+    <%= yield %>
+  </div>
+</body>
+</html>

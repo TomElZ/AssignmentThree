@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  userid: MyString
+  fullname: MyString
+  noofdays: MyString
+  datefrom: 2012-01-17
+  dateto: 2012-01-17
+
+two:
+  userid: MyString
+  fullname: MyString
+  noofdays: MyString
+  datefrom: 2012-01-17
+  dateto: 2012-01-17

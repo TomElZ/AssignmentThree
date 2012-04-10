@@ -1,0 +1,10 @@
+atom_feed do |feed|
+  feed.title("The LMU Staff Holiday Requests News Feed")
+  feed.updated(@holidayrequests.first.created_at)
+  @holidayrequests.each do |holidayrequests|
+    feed.entry(holidayrequests) do |entry|
+      entry.title(holidayrequests.user.username)
+      entry.content(holidayrequests.datefrom)
+    end
+  end
+end

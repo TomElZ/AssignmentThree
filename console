@@ -1,0 +1,84 @@
+Script started on Tue 24 Jan 2012 13:33:41 GMT
+]0;tome@byenr515-19: ~/Code/StaffHolidaystome@byenr515-19:~/Code/StaffHolidays$ script/console
+Loading development environment (Rails 2.3.11)
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/vendor_gem_source_index.rb:34.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#initialize is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#initialize called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/vendor_gem_source_index.rb:100.
+>> require 'sha'1[K[K1'
+=> ["SHA1"]
+>> User.create (:username [K[K[K[K[K[K[K[K[Kusername => "enrtelsw", :[C[C[C[Cemail =?[K> "t.elsworthy@2009.ljmu.ac.uk" , :password = [K> "test", p[K:password_confirmation => "test")
+(irb):2: warning: don't put space before argument parentheses
+ActiveRecord::StatementInvalid: Could not find table 'users'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/sqlite3_adapter.rb:29:in `table_structure'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/sqlite3_adapter.rb:28:in `tap'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/sqlite3_adapter.rb:28:in `table_structure'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/connection_adapters/sqlite_adapter.rb:228:in `columns'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/base.rb:1305:in `columns'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/base.rb:3067:in `attributes_from_column_definition_without_lock'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/locking/optimistic.rb:66:in `attributes_from_column_definition'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/base.rb:2473:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/base.rb:725:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.11/lib/active_record/base.rb:725:in `create'
+	from (irb):2
+>> 
+[1]+  Stopped                 script/console
+]0;tome@byenr515-19: ~/Code/StaffHolidaystome@byenr515-19:~/Code/StaffHolidays$ rake db:migrate
+rake/rdoctask is deprecated.  Use rdoc/task instead (in RDoc 2.4.2+)
+==  CreateUsers: migrating ====================================================
+-- create_table(:users)
+   -> 0.0012s
+==  CreateUsers: migrated (0.0013s) ===========================================
+
+]0;tome@byenr515-19: ~/Code/StaffHolidaystome@byenr515-19:~/Code/StaffHolidays$ rake db:migrate[1Pscript/console
+Loading development environment (Rails 2.3.11)
+NOTE: Gem.source_index is deprecated, use Specification. It will be removed on or after 2011-11-01.
+Gem.source_index called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/gem_dependency.rb:21.
+NOTE: Gem::SourceIndex#refresh! is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#refresh! called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/vendor_gem_source_index.rb:34.
+NOTE: Gem::SourceIndex#load_gems_in is deprecated with no replacement. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#load_gems_in called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:322.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_spec called from /usr/local/lib/site_ruby/1.8/rubygems/source_index.rb:127.
+NOTE: Gem::SourceIndex#add_spec is deprecated, use Specification.add_spec. It will be removed on or after 2011-11-01.
+Gem::SourceIndex#add_

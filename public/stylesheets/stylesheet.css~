@@ -1,0 +1,5 @@
+#flash {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  	font-size: 45px;
+	  	color: #010;
+	  	}
