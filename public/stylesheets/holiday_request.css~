@@ -202,12 +202,16 @@
     background: #f1efe2;
     text-align: center;
     padding: 1em;
-    cursor: default; }
+    cursor: default; 
+    }
+    
   .apple_pagination a, .apple_pagination span {
-    padding: 0.2em 0.3em; }
+    padding: 0.2em 0.3em; 
+    }
   
   .apple_pagination .disabled {
-    color: #aaaaaa; }
+    color: #aaaaaa; 
+    }
   
   .apple_pagination .current {
     font-style: normal;
@@ -220,14 +224,17 @@
     -moz-border-radius: 1em;
     -webkit-border-radius: 1em;
     border-radius: 1em;
-    text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; }
+    text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; 
+    }
   
   .apple_pagination a {
     text-decoration: none;
-    color: black; }
+    color: black; 
+    }
     
-   /apple_pagination a:hover, .apple_pagination a:focus {
-      text-decoration: underline; }
+   .apple_pagination a:hover, .apple_pagination a:focus {
+      text-decoration: underline; 
+      }
       
 	h1 {
 		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;

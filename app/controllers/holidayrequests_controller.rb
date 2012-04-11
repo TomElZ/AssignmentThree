@@ -3,18 +3,7 @@ class HolidayrequestsController < ApplicationController
   def index
     login_required
     @holidayrequests = Holidayrequests.all.paginate(:page => params[:page], :per_page => 25)
-    
-    respond_to do |format|
-	format.html { }
-	format.js {
-	render :update do |page|
-	page.replace_html 'all-posts', :partial => @holidayrequests
-	page.replace_html 'pagination', :partial => 'pagination',:locals => {:collection => @holidayrequests}
-end
-}
-format.xml { render :xml => @holidayrequests }
-end
-end
+    end
   
   def show
     login_required
@@ -66,4 +55,4 @@ end
     @holidayrequests.destroy
     redirect_to :action => "index"
   end
- end
+  end
