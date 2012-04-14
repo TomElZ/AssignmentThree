@@ -2,18 +2,14 @@
 <html>
 <head>
 <%= javascript_include_tag :defaults %>
-<%= ajaxful_rating_style %>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Show Selected Holiday</title>
 <link href="stylesheets/holiday_request.css" rel="stylesheet" type="text/css">
-
 </head>
-
 <body>
 <div id="container">
   <div id="banner"><img src="http://localhost:3000/images/banner%20design.gif" width="961" height="103" alt="banner"></div>
-  <div id="navigation">
-</div>
+  <div id="navigation"></div>
   <div id="social"><a href="http://www.facebook.com/liverpooljohnmooresuniversity" target="_blank"><img src="http://www.niftybuttons.com/classic/facebook.png" alt="facebook"></a><a href="http://twitter.com/#!/LJMU" target="_blank"><img src="http://www.niftybuttons.com/classic/twitter.png" alt="twitter"></a><a href="http://www.youtube.com/LJMUTV" target="_blank"><img src="http://www.niftybuttons.com/classic/youtube.png" alt="youtube"></a></div>
   <div id="socialtext">
     <p class="socialfont">- For all of your LJMU social networking needs</p>
@@ -24,8 +20,6 @@
   <p class = "editinp">Date To: <%=h @holidayrequests.dateto %></p>
   <p class = "editinp">Approved?: <%=h @holidayrequests.approved %></p>
   <p class = "editinp">Image: <%= image_tag @holidayrequests.photo.url(:small) %></p>
-  Global Avg: <%= ratings_for @holidayrequests, :dimension => :Weather %>
-
 
 <% if current_user.id == @holidayrequests.user.id || current_user.admin %>
 <p class = "editinp"><%= link_to 'Edit Holiday Request', edit_holidayrequest_path %> |
