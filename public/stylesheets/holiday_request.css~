@@ -137,6 +137,11 @@
 		margin-top: 10px;
 		width: 968px;
 	  	}
+	#booking_paginate {
+		float: left;
+		margin-top: 25px;
+		width: 968px;
+	  	}
 	#footer {
 		height: auto;
 		float: left;

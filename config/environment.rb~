@@ -9,6 +9,9 @@ require File.join(File.dirname(__FILE__), 'boot')
 Rails::Initializer.run do |config|
   config.gem 'will_paginate', :version => '~> 2.3.11'
   config.gem 'paperclip', :version => '~> 2.3.11'
+  config.gem "ajaxful_rating"
   config.time_zone = 'UTC'
   require 'will_paginate'
+  require 'paperclip'
+  Rails.root
 end

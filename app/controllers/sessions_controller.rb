@@ -1,6 +1,4 @@
 class SessionsController < ApplicationController
-  def new
-  end
 
   def create
     user = User.authenticate(params[:login], params[:password])
@@ -18,5 +16,5 @@ class SessionsController < ApplicationController
     session[:user_id] = nil
     flash[:notice] = "You have been logged out!"
     redirect_to root_url
+    end
   end
-end
