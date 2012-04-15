@@ -1,5 +1,4 @@
 require 'test_functional'
-require 'test_helper'
 
 class HolidayrequestsControllerTest < Test::Functional::TestCase
 

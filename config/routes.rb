@@ -4,7 +4,6 @@ ActionController::Routing::Routes.draw do |map|
   map.login 'login', :controller => 'sessions', :action => 'new'
   map.resources :sessions
   #map.resources :holidayrequests, :member => {:rate => :post}
-  #map.resources :users, :member => {:rate => :post}	
   map.resources :users
   map.resources :holidayrequests
   map.root :controller => 'sessions', :action => 'new'

@@ -1,6 +1,7 @@
 require 'test_functional'
+require 'test_helper'
 
-class HolidayrequestsControllerTest < ActionController::TestCase
+class HolidayrequestsControllerTest < Test::Functional::TestCase
 
 def test_should_load_index
 	get :index
